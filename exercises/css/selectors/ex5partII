@@ -1,0 +1,18 @@
+* { }                       = 0
+li { }                      = 1
+li:first-line { }           = 2     
+ul li { }                   = 2
+ul ol+li { }                = 3   
+h1 + *[rel=up] { }          = 11       
+ul ol li.red { }            = 13     
+li.red.level { }            = 21       
+style=""                    = 1000  
+p { }                       = 1
+div p { }                   = 2   
+.sith                       = 10
+div p.sith { }              = 12   
+#sith                       = 100
+body #darkside .sith p { }  = 112    
+
+
+use="https://www.codecaptain.io/tools/css-specificity-calculator ""
