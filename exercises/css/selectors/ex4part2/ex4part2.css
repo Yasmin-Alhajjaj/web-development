@@ -1,0 +1,8 @@
+ul ul {color:blue;}
+ul ul ul{list-style-type:none;}
+li:nth-child(1){ font-weight:bold; }
+[href] {color: green;}
+ul [href]{color: red;}
+
+div + div [href] { color: purple;
+background-color: yellow; }
