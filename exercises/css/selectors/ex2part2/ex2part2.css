@@ -1,0 +1,8 @@
+     body{background-color:#f0f8ff; }
+
+     div{background-color: white;  width: 75%;border: 1px solid #333333 ; margin-bottom: 1em;padding: 0.5em; box-shadow: black 2px 2px; border-radius:5px }
+
+     .highlight1{background-color: #fdfd96; font: bold;padding-left: 0.5em;padding-right: 0.5em;}
+
+     .highlight2{background-color: #fdca96;font: bold;padding-left: 0.5em;padding-right: 0.5em;}
+     #div2 {border: dashed red; color: red; box-shadow: 2px 3px red}
